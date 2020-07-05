@@ -16,7 +16,7 @@ for(let len = 0; len < 8; len++ )
 		}
 	}
 	// break the line and start a new iteration
-	res += "\n"
+	res += "\n";
 }
 
 // print the board
