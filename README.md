@@ -34,3 +34,8 @@ A function definition:
 - The set of bindings visible inside a block is determined by the place of that block in the program text.
 - Eachlocal scope can also see all the local scopes that contain it, and all scopes can see the global scope.
  --> This approach to binding visibility is called **_lexical scoping_**
+ 
+## FUNCTION as VALUES
+- A function value can do all the things that other values can do, you can use it in arbitray expressions, not just call it.
+- It is possible to store a function value in a new binding, pass it as an argument to a function.
+- A binding that holds a function is still just a regular binding, and can, if not constant, be assigned a new value.
