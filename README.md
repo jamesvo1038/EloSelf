@@ -39,3 +39,8 @@ A function definition:
 - A function value can do all the things that other values can do, you can use it in arbitray expressions, not just call it.
 - It is possible to store a function value in a new binding, pass it as an argument to a function.
 - A binding that holds a function is still just a regular binding, and can, if not constant, be assigned a new value.
+
+## DECLARATION NOTATION
+- When the function keyword is used at the start of a statement, this is a function **_declaration_**.
+- The statement defines the binding, and points it at the given function. This declaration doesn't require a semicolon after the function.
+- Function declarations are not part of the regular top-to-bottom flow of control. They are conceptually moved to the top of their scope and can be used by all the code in that scope.
