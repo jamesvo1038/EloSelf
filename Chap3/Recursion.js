@@ -3,19 +3,22 @@ function isEven(n)
 	//NOTE: Make sure to remember single "=" is binding not a comparison 
 	if(n == 0)
 	{
-		return true;
+	  return true;
 	}
+	
 	else if (n == 1)
 	{
-		return false;
+	  return false;
 	}
+	
   	else if (n < 0)
-    {
-    	return false;
-    }
+    	{
+    	  return false;
+    	}
+	
 	else
 	{
-		return isEven(n - 2);
+	   return isEven(n - 2);
 	}
 }
 
