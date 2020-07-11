@@ -4,6 +4,8 @@ This is my journey in studying Javascript from Eloquent Book and it consists my 
 
 The goal is to learn JS in modern ways.
 
+1. [Function](FUNCTION)
+
 ## FUNCTION
 - Are the bread and butter of JavaScript programming.
 - THe concept of wrapping a piece of program in a value has many uses.
