@@ -44,3 +44,16 @@ A function definition:
 - When the function keyword is used at the start of a statement, this is a function **_declaration_**.
 - The statement defines the binding, and points it at the given function. This declaration doesn't require a semicolon after the function.
 - Function declarations are not part of the regular top-to-bottom flow of control. They are conceptually moved to the top of their scope and can be used by all the code in that scope.
+
+## ARROW FUNCTION (**=>**) 
+- The arrow comes **after** the list of parameter and is followed by the function's body.
+- It expresses somethig like **"THIS INPUT (LIKE PARAMETERS) PRODUCES THIS RESULT ( THE BODY)"**.
+- When there is only one parameter name, you can omit the parantheses aroudn the parameter list.
+- If the body is a single expression, rather than a block in braces, that expression will be returned from the function.
+ Ex of these 2 definitions of square do the same thing:
+    + `const square = (x) => {return x*x;};` 
+    + `const square =  x  =>   x*x;` 
+- When an arrow function has no parameters at all, its parameter list is just an empty set of parantheses.
+    + `const horn = () => { console.log("Toot");};` 
+- Arrow funtions were added mostly to make it possible to write small function expressions in a less verbose way.
+    
