@@ -9,7 +9,7 @@ The goal is to learn JS in modern ways.
 - THe concept of wrapping a piece of program in a value has many uses.
 - Give us a way to structure larger programs, to reduce repetition, to associate names w/ subprograms, and to isolate these subprograms from each other.
 
-## Defining a function
+## DEFINING A FUNCTION
 
 A function definition: 
 1. A regular binding where the valueof the bindin is a function.
