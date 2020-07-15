@@ -63,3 +63,10 @@ A function definition:
 - Everytime a function is called, the curren context is stored on top of this stack.
 - When a function returns, it removes the top context from the stack and uses that context to continue execution. (Think of it as bike parking)
 - Storing this stack requires space in te computer's memory. When the stack grows too big, the computer will fail message like "out of stack" space" on "too much recursion".
+
+## OPTIONAL ARGUMENTS
+- JavaScript is extremely broad-minded about the number of arguments you pass to a function.
+- If you pass too many, the extra ones are ignored.
+- If you pass too few, the missing parameters get assigned the value **_undefined_**.
+- If you write an **=** operator after a parameter, followed by an expression, the value of that expression will replace the argument when it is not given.
+
