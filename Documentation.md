@@ -56,4 +56,10 @@ A function definition:
 - When an arrow function has no parameters at all, its parameter list is just an empty set of parantheses.
     + `const horn = () => { console.log("Toot");};` 
 - Arrow funtions were added mostly to make it possible to write small function expressions in a less verbose way.
-    
+
+## THE CALL STACK
+- A function has to jump back to the place that called it when it returns, the computer must remember the context from which the call happened.
+- The place where the computer stores this context is the **_call stack_**.
+- Everytime a function is called, the curren context is stored on top of this stack.
+- When a function returns, it removes the top context from the stack and uses that context to continue execution. (Think of it as bike parking)
+- Storing this stack requires space in te computer's memory. When the stack grows too big, the computer will fail message like "out of stack" space" on "too much recursion".
